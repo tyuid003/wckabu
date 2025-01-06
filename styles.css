@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -219,3 +220,226 @@
     color: #007bff;
 }
 
+=======
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button.active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+.back-to-main {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 20px 0;
+}
+
+.back-to-main:hover {
+    background-color: #0056b3;
+}
+.btn-back-to-main {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.btn-back-to-main:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn-back-to-main:active {
+    transform: scale(0.95);
+}
+.comparison-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.comparison-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.comparison-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.comparison-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.comparison-input .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.compare-btn {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.compare-btn:hover {
+    background-color: #0056b3;
+}
+
+#comparisonResult {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.summary-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    max-width: 600px;
+    text-align: left;
+}
+
+.summary-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.summary-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.summary-list li {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #495057;
+}
+
+.summary-list span {
+    font-weight: bold;
+    color: #007bff;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 60px);
+    gap: 20px;
+}
+
+.comparison-section, .summary-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.comparison-section h3, .summary-section h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.summary-list {
+    list-style: none;
+    padding: 0;
+}
+
+.summary-list li {
+    margin-bottom: 10px;
+}
+
+.summary-list span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+>>>>>>> 8fd67c4fc666dee14ad9fc0e62b7d334401e73d8

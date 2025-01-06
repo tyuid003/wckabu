@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -148,3 +149,155 @@
     </div>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+    <script src="admin-dashboard.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #343a40;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border: none;
+        }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border: none;
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+        .btn-back-to-main {
+            background-color: #343a40;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn-back-to-main:hover {
+            background-color: #23272b;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>หน้าแอดมิน</h1>
+
+        <!-- ส่วนสร้างหน้างาน -->
+        <div class="section">
+            <h3>สร้างหน้างานใหม่</h3>
+            <form id="create-workspace-form">
+                <label for="workspace-name" class="form-label">ชื่อหน้างาน</label>
+                <input type="text" id="workspace-name" class="form-control" placeholder="กรุณาใส่ชื่อหน้างาน">
+                <button type="button" class="btn btn-success" onclick="addWorkspace()">สร้างหน้างาน</button>
+            </form>
+        </div>
+
+        <!-- ส่วนจัดการหน้างาน -->
+        <div class="section">
+            <h3>จัดการหน้างาน</h3>
+            <label for="workspace-selector" class="form-label">เลือกหน้างาน</label>
+            <select id="workspace-selector" class="form-control">
+                <option value="">เลือกหน้างาน</option>
+            </select>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary" onclick="switchWorkspace()">เปลี่ยนหน้างาน</button>
+                <button type="button" class="btn btn-danger" onclick="removeWorkspace()">ลบหน้างาน</button>
+            </div>
+        </div>
+
+        <!-- ลิงก์กลับไปหน้าหลัก -->
+        <div class="section">
+            <a href="index.html" class="btn btn-back-to-main">กลับไปยังหน้าหลัก</a>
+        </div>
+    </div>
+</body>
+</html>
+>>>>>>> 8fd67c4fc666dee14ad9fc0e62b7d334401e73d8

@@ -1,0 +1,59 @@
+[debug] [2025-01-05T10:47:07.546Z] ----------------------------------------------------------------------
+[debug] [2025-01-05T10:47:07.549Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\plaza\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-01-05T10:47:07.549Z] CLI Version:   13.29.1
+[debug] [2025-01-05T10:47:07.550Z] Platform:      win32
+[debug] [2025-01-05T10:47:07.550Z] Node Version:  v22.12.0
+[debug] [2025-01-05T10:47:07.550Z] Time:          Sun Jan 05 2025 17:47:07 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-01-05T10:47:07.550Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-05T10:47:07.562Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-05T10:47:07.563Z] > authorizing via signed-in user (tyuid003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\plaza\OneDrive\Desktop\wckabu
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-05T10:47:21.231Z] Checked if tokens are valid: true, expires at: 1736077162880
+[debug] [2025-01-05T10:47:21.232Z] Checked if tokens are valid: true, expires at: 1736077162880
+[debug] [2025-01-05T10:47:21.233Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-01-05T10:47:22.012Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-05T10:47:22.012Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project wckabu-55a88 (wckabu) 
+[info] 
+=== Hosting Setup
+[debug] [2025-01-05T10:47:30.308Z] Checked if tokens are valid: true, expires at: 1736077162880
+[debug] [2025-01-05T10:47:30.309Z] Checked if tokens are valid: true, expires at: 1736077162880
+[debug] [2025-01-05T10:47:30.309Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wckabu-55a88 [none]
+[debug] [2025-01-05T10:47:30.893Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wckabu-55a88 200
+[debug] [2025-01-05T10:47:30.894Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wckabu-55a88 {"projectId":"wckabu-55a88","projectNumber":"57286961566","displayName":"wckabu","name":"projects/wckabu-55a88","resources":{"hostingSite":"wckabu-55a88"},"state":"ACTIVE","etag":"1_d26af363-6078-4738-8775-dfb7380b68d8"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2025-01-05T10:50:07.383Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-01-05T10:50:07.518Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-01-05T10:50:07.518Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.1.0","browserURL":"https://www.gstatic.com/firebasejs/11.1.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.1.0/firebase.tgz"},"live":{"version":"11.1","browserURL":"https://www.gstatic.com/firebasejs/live/11.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.1.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.1.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.1.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.1.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.1.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.1.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.1.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.1.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.1.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.1.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.1.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.1.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\plaza\OneDrive\Desktop\wckabu is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=846271850&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
